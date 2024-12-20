@@ -1,0 +1,32 @@
+h1 {
+    color: white;
+    font-size: 100px;
+}
+#bell {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    border: 1px solid white;
+}
+.bell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.heroImgs {
+    display: flex;
+    justify-content: space-between;
+}
+.heroImgs img {
+    width: 60%;
+    border-radius: 10px;
+}
+.divColumn p {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+.heroImgs {
+    margin-top: 3rem;
+}

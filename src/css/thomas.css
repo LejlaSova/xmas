@@ -1,0 +1,90 @@
+.thomasFlex
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    gap: 5vw;
+    margin: 100px auto;
+    justify-content: center;
+}
+
+h2
+{
+    font-size: 5rem;
+    font-weight: 600;
+    text-decoration: underline;
+    color: white;
+}
+
+p
+{
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing: 1.7px;
+}
+
+.buttonHome
+{
+    display: block;
+}
+.button
+{
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    font-family: "Mountains of Christmas", serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+a
+{
+    text-decoration: none;
+}
+
+#thomasBild
+{
+    width: 40vw;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    
+
+}
+
+h3{
+    font-size: 3rem;
+    color: white;
+}
+
+.thomasText
+{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.antwortRichtig
+{
+    opacity: 1;
+}
+
+.antwortFalsch
+{
+    opacity: 0;
+}
+
+input
+{
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    font-family: "Mountains of Christmas", serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 20px auto;
+}
